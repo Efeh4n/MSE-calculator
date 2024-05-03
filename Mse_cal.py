@@ -1,6 +1,6 @@
 #                       MSE(Mean Square Error)
-y_true = [3, 4, 5, 6, 7]
-y_predict = [2.5, 4, 5, 5.5, 8]
+y_true = []
+y_predict = []
 def mse_calculator(y_true, y_predict):
     errors = []
     for i in range(len(y_true)):
